@@ -134,7 +134,8 @@ CREATE TABLE destinations_gallery (
 
 CREATE TABLE activities (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL
+    name VARCHAR(255) NOT NULL,
+    description TEXT 
 );
 
 CREATE TABLE destination_activities (
